@@ -50,19 +50,19 @@
 
 | لوحة المعلومات (Dashboard) | إدارة الطلاب (Students) |
 | :---: | :---: |
-| ![Dashboard](1.jpg) | ![Students](2.jpg) |
+| ![Dashboard](1.png) | ![Students](2.png) |
 
 | إدارة الدورات (Courses) | إدارة التسجيلات (Enrollments) |
 | :---: | :---: |
-| ![Courses](3.jpg) | ![Enrollments](4.jpg) |
+| ![Courses](3.png) | ![Enrollments](4.png) |
 
 | إدارة المدفوعات (Payments) | التقارير (Reports) |
 | :---: | :---: |
-| ![Payments](5.jpg) | ![Reports](6.jpg) |
+| ![Payments](5.png) | ![Reports](6.png) |
 
 | إيصال السداد (Receipt) | تفاصيل الإيصال والترويسة (Receipt Footer) |
 | :---: | :---: |
-| ![Receipt](8.jpg) | ![Receipt Details](9.jpg) |
+| ![Receipt](8.png) | ![Receipt Details](9.png) |
 
 ---
 
