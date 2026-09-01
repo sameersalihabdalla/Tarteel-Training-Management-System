@@ -1,0 +1,214 @@
+@font-face {
+  font-family: "myfont";
+  src: url(myfont3.ttf);
+  font-weight: normal;
+}
+
+body {
+  font-family: "myfont", Arial, sans-serif;
+  background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+  color: #333;
+  margin: 0;
+  padding: 0;
+
+  font-size: 14px;
+}
+
+/* تنبيهات */
+.alert {
+  padding: 0.35rem 0.8rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  font-weight: 400;
+}
+
+/* العناوين والتسميات */
+.form-wrap h1,
+.form-wrap .form-label {
+  font-weight: 600;
+  color: #2a4365;
+}
+
+/* روابط */
+.xx a {
+  display: inline-block;
+  padding: 6px 12px;
+  border: solid 1px gray;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #2a4365;
+  transition: all 0.3s ease;
+}
+
+.xx a:hover {
+  background: linear-gradient(135deg, #3182ce, #2b6cb0);
+  border-radius: 10px;
+  color: #fff;
+  border: solid 1px #2b6cb0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* عنوان المنتج */
+.prod_lbl {
+  background: linear-gradient(90deg, #4a5568, #2d3748);
+  color: #fff;
+  width: 100%;
+  height: 35px;
+  text-align: center;
+  padding-top: 5px;
+  font-weight: 500;
+  border-radius: 6px;
+  letter-spacing: 1px;
+}
+
+/* حاوية المنتج */
+.prod_div {
+  margin: 5px 0;
+  padding: 8px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  background-color: #fff;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.prod_div:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* إدخال المنتج */
+.prod_input {
+  width: 100%;
+  padding: 6px 10px;
+  border: 1px solid  rgba(49,130,206,0.5);
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.prod_input:focus {
+  background-color: #edf2f7;
+  border: 1px solid #3182ce;
+  border-radius: 6px;
+  outline: none;
+  box-shadow: 0 0 6px rgba(49,130,206,0.5);
+}
+
+
+.navbar {
+  background: linear-gradient(90deg, #06663e, #04704c, #07995c) !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+
+.navbar .nav-link {
+  color: #fff !important;
+  font-weight: 400;
+  margin: 0 8px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  background-color: rgba(255,255,255,0.2);
+  transform: translateY(-2px);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+
+.navbar-brand {
+  color: #fff !important;
+  font-size: 0.8rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.navbar-brand:hover {
+  transform: scale(1.05);
+}
+
+
+.logout-link {
+  background-color: rgba(255,255,255,0.15);
+  border: 1px solid rgba(255,255,255,0.3);
+  border-radius: 6px;
+  padding: 6px 12px;
+}
+
+.logout-link:hover {
+  background-color: #e53e3e !important;
+  color: #fff !important;
+  box-shadow: 0 0 10px rgba(229,62,62,0.6);
+}
+
+
+
+
+
+
+
+
+
+.custom-navbar {
+  background: linear-gradient(90deg, #2b6cb0, #3182ce, #63b3ed);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.custom-navbar .navbar-brand {
+  color: #fff !important;
+  font-size: 0.8rem;
+  transition: all 0.3s ease;
+}
+
+.custom-navbar .navbar-brand:hover {
+  transform: scale(1.05);
+}
+
+.custom-navbar .nav-link {
+  color: #fff !important;
+  font-weight: 400;
+  margin: 0 6px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.custom-navbar .nav-link:hover {
+  background-color: rgba(255,255,255,0.2);
+  transform: translateY(-2px);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.logout-link {
+  background-color: rgba(255,255,255,0.15);
+  border: 1px solid rgba(255,255,255,0.3);
+  border-radius: 6px;
+}
+
+.logout-link:hover {
+  background-color: #e53e3e !important;
+  color: #fff !important;
+  box-shadow: 0 0 10px rgba(229,62,62,0.6);
+}
+
+
+
+.form-control {
+  font-size: 16px;       /* حجم الخط */
+  color: #333;           /* لون النص */
+  border: 1px solid #007bff; /* لون وسمك الحدود */
+  border-radius: 8px;    /* تدوير الحواف */
+  padding: 2px;  
+  padding-right: 10px;
+  padding-left: 10px;       /* مسافة داخلية */
+}
+
+
+
+
+
+
+
+
+
+
+
